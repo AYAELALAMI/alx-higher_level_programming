@@ -6,7 +6,7 @@ if number >= 0:
 else:
     last_dig = ((number * -1) % 10) * -1
 
-the_message = "Last digit of %d is %d and is" % (number, last_digit)
+the_message = "Last digit of %d is %d and is" % (number, last_dig)
 
 if last_dig > 5:
     print(the_message, "greater than 5")
