@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 def add_arg(argv):
-    num = len(argv) - 1
-    if num == 0:
-        print("{:d}".format(num))
+    n = len(argv) - 1
+    if n == 0:
+        print("{:d}".format(n)
         return
     else:
-        a = 1
+        i = 1
         add = 0
-        while a <= num:
-            add += int(argv[a])
-            a += 1
+        while i <= n:
+            add += int(argv[i])
+            i += 1
             print("{:d}".format(add))
 
             if __name__ == "__main__":
